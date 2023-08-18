@@ -21,17 +21,16 @@ require("@nomicfoundation/hardhat-toolbox");
 module.exports = {
         networks: {
                 hardhat: {
-                localhost: {
-                        url: "https://ec2-54-149-194-207.us-west-2.compute.amazonaws.com:8545",
-                        accounts: ["XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"]
-,                       chainId: 31337
+                     localhost: {
+                         url: "https://ec2-54-149-194-207.us-west-2.compute.amazonaws.com:8545",
+                         chainId: 31337
         
-                }
+                     }
 ,
-                        forking: {
+                     forking: {
                                 url: "https://cloudflare-eth.com/"
-,                       chainId: 31337
-                    }
+,                                chainId: 31337
+                     }
 
                 }
    },
